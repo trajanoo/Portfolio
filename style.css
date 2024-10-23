@@ -1,0 +1,236 @@
+* {
+    font-family: 'HelveticaLight';
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'HelveticaLight';
+    src: url('helvetica-light.woff2') format('woff2'),
+
+    url('helvetica-light.ttf') format('truetype');
+    
+  }
+
+
+html, body {
+height: 100%;
+}
+
+
+body {
+background-image: url('Design sem nome.png');
+background-size: cover;
+}
+
+header {
+display: flex;
+height: 80px;
+width: 100%;
+justify-content: space-between;
+background-color: #F3EDE9;
+
+}
+
+.logo {
+font-size: 9px;
+display: flex;
+flex-direction: column;
+padding: 20px;
+margin-top: 10px;
+text-align: center;
+}
+
+.container {
+    margin: 80px auto; /* centraliza a div com margens automáticas */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 90px rgba(0, 0, 0, 0.226);
+    width: 80%; /* ou qualquer outra largura que você desejar */
+  }
+main {
+height: 400px;
+width: 80%;
+background-color:rgba(255, 255, 255, 0);
+
+
+
+}
+
+.mainbox {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main h2 {
+  margin-top: -870px;
+    margin-left: 500px;
+    font-size: 25px;
+}
+
+#subtit {
+    font-size: 15px;
+    margin-top: -20px;
+    color: white;
+}
+
+nav {
+    padding: 30px;
+}
+
+a#explore {
+    margin-right: 50px;
+}
+
+@media (min-width: 1366px) and (max-width: 1920px) {
+    main {
+        height: 600px;
+    }
+
+    main h2 {
+        margin-left: 700px;
+    }
+  }
+
+  header a {
+    color: #4A4A4A;
+    text-decoration: none;
+  }
+
+  header a:hover {
+    text-decoration: underline;
+  }
+
+  main a {
+    font-size: 15px;
+  }
+
+  #foto {
+    position: absolute;
+    top: 220px;
+    left: 380px;
+    filter: grayscale(100%);
+    
+  }
+
+  @media (max-width: 1370px) {
+    #foto{
+        width: 200px;
+        height: 300px;
+    
+    }
+  }
+
+  #fotodois {
+    position: absolute;
+    top: 400px;
+  }
+  
+  #about {
+    margin-right: 750px;
+    font-size: 35px;
+    margin-top: 50px;
+  }
+
+  #mim {
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+
+  hr {
+    width: 650px;
+    margin-left: -100px;
+  }
+
+  .containerDois {
+    margin-top: 100px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.575);
+  }
+
+  .wrapper {
+    width: 550px;
+    display: flex;
+    animation: slide 10s infinite;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(0);
+    }
+    30% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    55% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-200%);
+    }
+    80% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-300%);
+    }
+    
+  }
+
+  main a {
+    height: 300px;
+  }
+
+  main p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-right: 750px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  #sou, #tenho, #minha, #acred {
+    margin-left: 40px;
+  }
+
+  .icons {
+    margin: 30px;
+    display: flex;
+    margin-left: 130px;
+  }
+
+  .icons img {
+    padding-left: 20px;
+  }
+
+
+  footer {
+    font-size: 16px;
+    position: fixed;
+    top: 920px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .half-colored {
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Para destacar mais a letra */
+    background: linear-gradient(to right, black 50%, white 50%);
+    -webkit-background-clip: text; /* Para Safari */
+    background-clip: text; /* Para outros navegadores */
+    color: transparent; /* Torna o texto transparente */
+    text-align: center; /* Centraliza o texto */
+}
+
+#jano {
+  color: white;
+}
